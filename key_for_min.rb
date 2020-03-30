@@ -10,6 +10,7 @@ def key_for_min_value(hash)
         num = value
       elsif  (num < value)
         name = key
+        num = value
       end
     end
   end
