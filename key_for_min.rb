@@ -2,7 +2,7 @@ def key_for_min_value(hash)
   name = ""
   num = nil
   if (hash.nil?) 
-    return nil
+    return 123
   else
     hash.each do |key,value|
       if (num == nil)
