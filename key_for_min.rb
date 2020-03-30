@@ -1,6 +1,9 @@
 def key_for_min_value(hash)
-  name = nil
+  name = ""
   num = nil
+  if (hash == nil) 
+    return nil
+  else
     hash.each do |key,value|
       if (num == nil)
         name = key
@@ -9,6 +12,7 @@ def key_for_min_value(hash)
         name = key
         num = value
       end
+    end
     return name
   end
 end
