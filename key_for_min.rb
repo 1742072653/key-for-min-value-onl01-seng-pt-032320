@@ -6,3 +6,4 @@ def key_for_min_value(hash)
   else
   return name
 end
+end
